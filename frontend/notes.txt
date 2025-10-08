@@ -1,0 +1,506 @@
+
+📋 Available Avatars:
+1. Alessandra Casual Look
+   ID: Alessandra_CasualLook_public
+   Type: Public
+   Voice: 0d3f35185d7c4360b9f03312e0264d59
+
+2. Alessandra Chair Sitting
+   ID: Alessandra_Chair_Sitting_public
+   Type: Public
+   Voice: 0d3f35185d7c4360b9f03312e0264d59
+
+3. Alessandra in Black Suit
+   ID: Alessandra_Black_Suit_public
+   Type: Public
+   Voice: 0d3f35185d7c4360b9f03312e0264d59
+
+4. Alessandra in Grey Sweater
+   ID: Alessandra_Grey_Sweater_public
+   Type: Public
+   Voice: 0d3f35185d7c4360b9f03312e0264d59
+
+5. Alessandra Professional Look
+   ID: Alessandra_ProfessionalLook_public
+   Type: Public
+   Voice: 0d3f35185d7c4360b9f03312e0264d59
+
+6. Alessandra Professional Look 2
+   ID: Alessandra_ProfessionalLook2_public
+   Type: Public
+   Voice: 0d3f35185d7c4360b9f03312e0264d59
+
+7. Amina Casual Look
+   ID: Amina_CasualLook_public
+   Type: Public
+   Voice: 47211675cf674b82aa4fdbe6a785c9b3
+
+8. Amina Chair Sitting
+   ID: Amina_Chair_Sitting_public
+   Type: Public
+   Voice: 47211675cf674b82aa4fdbe6a785c9b3
+
+9. Amina in Black Suit
+   ID: Amina_Black_Suit_public
+   Type: Public
+   Voice: 47211675cf674b82aa4fdbe6a785c9b3
+
+10. Amina in Blue Suit
+   ID: Amina_Blue_Suit_public
+   Type: Public
+   Voice: 47211675cf674b82aa4fdbe6a785c9b3
+
+11. Amina Professional Look
+   ID: Amina_ProfessionalLook_public
+   Type: Public
+   Voice: 47211675cf674b82aa4fdbe6a785c9b3
+
+12. Amina Professional Look 2
+   ID: Amina_ProfessionalLook2_public
+   Type: Public
+   Voice: 47211675cf674b82aa4fdbe6a785c9b3
+
+13. Anastasia Casual Look
+   ID: Anastasia_CasualLook_public
+   Type: Public
+   Voice: 576ee47831a4479cb4c5a25065214905
+
+14. Anastasia Chair Sitting
+   ID: Anastasia_Chair_Sitting_public
+   Type: Public
+   Voice: 576ee47831a4479cb4c5a25065214905
+
+15. Anastasia in Black Suit
+   ID: Anastasia_Black_Suit_public
+   Type: Public
+   Voice: 576ee47831a4479cb4c5a25065214905
+
+16. Anastasia in Grey Shirt
+   ID: Anastasia_Grey_Shirt_public
+   Type: Public
+   Voice: 576ee47831a4479cb4c5a25065214905
+
+17. Anastasia Professional Look
+   ID: Anastasia_ProfessionalLook_public
+   Type: Public
+   Voice: 576ee47831a4479cb4c5a25065214905
+
+18. Anastasia Professional Look 2
+   ID: Anastasia_ProfessionalLook2_public
+   Type: Public
+   Voice: 576ee47831a4479cb4c5a25065214905
+
+19. Ann Doctor Sitting
+   ID: Ann_Doctor_Sitting_public
+   Type: Public
+   Voice: 6eafa43fdc16437b8f5abe512cc2b3cf
+
+20. Ann Doctor Standing
+   ID: Ann_Doctor_Standing2_public
+   Type: Public
+   Voice: 6eafa43fdc16437b8f5abe512cc2b3cf
+
+21. Ann Therapist
+   ID: Ann_Therapist_public
+   Type: Public
+   Voice: 6eafa43fdc16437b8f5abe512cc2b3cf
+
+22. Anthony Casual Look
+   ID: Anthony_CasualLook_public
+   Type: Public
+   Voice: 6f94c8b2a6784a1d92ffbe0339138f31
+
+23. Anthony Chair Sitting
+   ID: Anthony_Chair_Sitting_public
+   Type: Public
+   Voice: 6f94c8b2a6784a1d92ffbe0339138f31
+
+24. Anthony in Black Suit
+   ID: Anthony_Black_Suit_public
+   Type: Public
+   Voice: 6f94c8b2a6784a1d92ffbe0339138f31
+
+25. Anthony in White Suit
+   ID: Anthony_White_Suit_public
+   Type: Public
+   Voice: 6f94c8b2a6784a1d92ffbe0339138f31
+
+26. Anthony Professional Look
+   ID: Anthony_ProfessionalLook_public
+   Type: Public
+   Voice: 6f94c8b2a6784a1d92ffbe0339138f31
+
+27. Anthony Professional Look 2
+   ID: Anthony_ProfessionalLook2_public
+   Type: Public
+   Voice: 6f94c8b2a6784a1d92ffbe0339138f31
+
+28. Bryan Fitness Coach
+   ID: Bryan_FitnessCoach_public
+   Type: Public
+   Voice: bd9106cb6c9949449bac016c271bd657
+
+29. Bryan Tech Expert
+   ID: Bryan_IT_Sitting_public
+   Type: Public
+   Voice: bd9106cb6c9949449bac016c271bd657
+
+30. Dexter Doctor Sitting
+   ID: Dexter_Doctor_Sitting2_public
+   Type: Public
+   Voice: 7a544b76e07648849ed54617f18ea280
+
+31. Dexter Doctor Standing
+   ID: Dexter_Doctor_Standing2_public
+   Type: Public
+   Voice: 7a544b76e07648849ed54617f18ea280
+
+32. Dexter Lawyer
+   ID: Dexter_Lawyer_Sitting_public
+   Type: Public
+   Voice: 7a544b76e07648849ed54617f18ea280
+
+33. Elenora Fitness Coach
+   ID: Elenora_FitnessCoach2_public
+   Type: Public
+   Voice: 613f8304431144918ed6a83d4b3e3196
+
+34. Elenora Fitness Coach 2
+   ID: Elenora_FitnessCoach_public
+   Type: Public
+   Voice: 613f8304431144918ed6a83d4b3e3196
+
+35. Elenora Tech Expert
+   ID: Elenora_IT_Sitting_public
+   Type: Public
+   Voice: 613f8304431144918ed6a83d4b3e3196
+
+36. Graham Casual Look
+   ID: Graham_CasualLook_public
+   Type: Public
+   Voice: b6b264e13f6942b6843bbdaf2cf423c4
+
+37. Graham Chair Sitting
+   ID: Graham_Chair_Sitting_public
+   Type: Public
+   Voice: b6b264e13f6942b6843bbdaf2cf423c4
+
+38. Graham in Black Shirt
+   ID: Graham_Black_Shirt_public
+   Type: Public
+   Voice: b6b264e13f6942b6843bbdaf2cf423c4
+
+39. Graham in Black Suit
+   ID: Graham_Black_Suit_public
+   Type: Public
+   Voice: b6b264e13f6942b6843bbdaf2cf423c4
+
+40. Graham Professional Look
+   ID: Graham_ProfessionalLook_public
+   Type: Public
+   Voice: b6b264e13f6942b6843bbdaf2cf423c4
+
+41. Graham Professional Look 2
+   ID: Graham_ProfessionalLook2_public
+   Type: Public
+   Voice: b6b264e13f6942b6843bbdaf2cf423c4
+
+42. Judy Doctor Sitting
+   ID: Judy_Doctor_Sitting2_public
+   Type: Public
+   Voice: 7ffb69e578d4492587493c26ebcabc31
+
+43. Judy Doctor Standing
+   ID: Judy_Doctor_Standing2_public
+   Type: Public
+   Voice: 7ffb69e578d4492587493c26ebcabc31
+
+44. Judy HR
+   ID: Judy_Teacher_Sitting_public
+   Type: Public
+   Voice: 7ffb69e578d4492587493c26ebcabc31
+
+45. Judy Lawyer
+   ID: Judy_Lawyer_Sitting2_public
+   Type: Public
+   Voice: 7ffb69e578d4492587493c26ebcabc31
+
+46. Judy Teacher Sitting
+   ID: Judy_Teacher_Sitting2_public
+   Type: Public
+   Voice: 7ffb69e578d4492587493c26ebcabc31
+
+47. Judy Teacher Standing
+   ID: Judy_Teacher_Standing_public
+   Type: Public
+   Voice: 7ffb69e578d4492587493c26ebcabc31
+
+48. June HR
+   ID: June_HR_public
+   Type: Public
+   Voice: 68dedac41a9f46a6a4271a95c733823c
+
+49. Katya Casual Look
+   ID: Katya_CasualLook_public
+   Type: Public
+   Voice: a8afd8132bdb41a29cfba4944ac9c7ec
+
+50. Katya Chair Sitting
+   ID: Katya_Chair_Sitting_public
+   Type: Public
+   Voice: a8afd8132bdb41a29cfba4944ac9c7ec
+
+51. Katya in Black Suit
+   ID: Katya_Black_Suit_public
+   Type: Public
+   Voice: a8afd8132bdb41a29cfba4944ac9c7ec
+
+52. Katya in Pink Suit
+   ID: Katya_Pink_Suit_public
+   Type: Public
+   Voice: a8afd8132bdb41a29cfba4944ac9c7ec
+
+53. Katya Professional Look
+   ID: Katya_ProfessionalLook_public
+   Type: Public
+   Voice: a8afd8132bdb41a29cfba4944ac9c7ec
+
+54. Katya Professional Look 2
+   ID: Katya_ProfessionalLook2_public
+   Type: Public
+   Voice: a8afd8132bdb41a29cfba4944ac9c7ec
+
+55. Marianne Casual Look
+   ID: Marianne_CasualLook_public
+   Type: Public
+   Voice: 6664c469256949f19aab13c83c6005a1
+
+56. Marianne Chair Sitting
+   ID: Marianne_Chair_Sitting_public
+   Type: Public
+   Voice: 6664c469256949f19aab13c83c6005a1
+
+57. Marianne in Black Suit
+   ID: Marianne_Black_Suit_public
+   Type: Public
+   Voice: 6664c469256949f19aab13c83c6005a1
+
+58. Marianne in Red Suit
+   ID: Marianne_Red_Suit_public
+   Type: Public
+   Voice: 6664c469256949f19aab13c83c6005a1
+
+59. Marianne Professional Look
+   ID: Marianne_ProfessionalLook_public
+   Type: Public
+   Voice: 6664c469256949f19aab13c83c6005a1
+
+60. Marianne Professional Look 2
+   ID: Marianne_ProfessionalLook2_public
+   Type: Public
+   Voice: 6664c469256949f19aab13c83c6005a1
+
+61. Pedro Casual Look
+   ID: Pedro_CasualLook_public
+   Type: Public
+   Voice: fbc81b179407457688c45c0f250ec3ce
+
+62. Pedro Chair Sitting
+   ID: Pedro_Chair_Sitting_public
+   Type: Public
+   Voice: fbc81b179407457688c45c0f250ec3ce
+
+63. Pedro in Black Suit
+   ID: Pedro_Black_Suit_public
+   Type: Public
+   Voice: fbc81b179407457688c45c0f250ec3ce
+
+64. Pedro in Blue Shirt
+   ID: Pedro_Blue_Shirt_public
+   Type: Public
+   Voice: fbc81b179407457688c45c0f250ec3ce
+
+65. Pedro Professional Look
+   ID: Pedro_ProfessionalLook_public
+   Type: Public
+   Voice: fbc81b179407457688c45c0f250ec3ce
+
+66. Pedro Professional Look 2
+   ID: Pedro_ProfessionalLook2_public
+   Type: Public
+   Voice: fbc81b179407457688c45c0f250ec3ce
+
+67. Rika Casual Look
+   ID: Rika_CasualLook_public
+   Type: Public
+   Voice: ac277b338cf64d8b9686784c43c563da
+
+68. Rika Chair Sitting
+   ID: Rika_Chair_Sitting_public
+   Type: Public
+   Voice: ac277b338cf64d8b9686784c43c563da
+
+69. Rika in Black Suit
+   ID: Rika_Black_Suit_public
+   Type: Public
+   Voice: ac277b338cf64d8b9686784c43c563da
+
+70. Rika in Blue Suit
+   ID: Rika_Blue_Suit_public
+   Type: Public
+   Voice: ac277b338cf64d8b9686784c43c563da
+
+71. Rika Professional Look
+   ID: Rika_ProfessionalLook_public
+   Type: Public
+   Voice: ac277b338cf64d8b9686784c43c563da
+
+72. Rika Professional Look 2
+   ID: Rika_ProfessionalLook2_public
+   Type: Public
+   Voice: ac277b338cf64d8b9686784c43c563da
+
+73. Santa Fireplace Front
+   ID: Santa_Fireplace_Front_public
+   Type: Public
+   Voice: 83f8d11946b24588857a491e1841c667
+
+74. Shawn Therapist
+   ID: Shawn_Therapist_public
+   Type: Public
+   Voice: 606c9d2a08be4e4f8cb38eafef8090de
+
+75. Silas Customer Support
+   ID: Silas_CustomerSupport_public
+   Type: Public
+   Voice: 5c837919d188407cac1ea65a8889e496
+
+76. Silas HR
+   ID: SilasHR_public
+   Type: Public
+   Voice: 5c837919d188407cac1ea65a8889e496
+
+77. Thaddeus Casual Look
+   ID: Thaddeus_CasualLook_public
+   Type: Public
+   Voice: da04d9a268ac468887a68359908e55b7
+
+78. Thaddeus Chair Sitting
+   ID: Thaddeus_Chair_Sitting_public
+   Type: Public
+   Voice: da04d9a268ac468887a68359908e55b7
+
+79. Thaddeus in Black Shirt
+   ID: Thaddeus_Black_Shirt_public
+   Type: Public
+   Voice: da04d9a268ac468887a68359908e55b7
+
+80. Thaddeus in Black Suit
+   ID: Thaddeus_Black_Suit_public
+   Type: Public
+   Voice: da04d9a268ac468887a68359908e55b7
+
+81. Thaddeus Professional Look
+   ID: Thaddeus_ProfessionalLook_public
+   Type: Public
+   Voice: da04d9a268ac468887a68359908e55b7
+
+82. Thaddeus Professional Look 2
+   ID: Thaddeus_ProfessionalLook2_public
+   Type: Public
+   Voice: da04d9a268ac468887a68359908e55b7
+
+83. Wayne
+   ID: Wayne_20240711
+   Type: Public
+   Voice: 2411aaf820874397a44530f94032bfdc
+
+
+🔧 React Component Code:
+// Generated avatar options for your React component
+const avatarOptions = [
+    { id: 'Alessandra_CasualLook_public', name: 'Alessandra Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Alessandra_Chair_Sitting_public', name: 'Alessandra Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Alessandra_Black_Suit_public', name: 'Alessandra in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Alessandra_Grey_Sweater_public', name: 'Alessandra in Grey Sweater', description: 'Public avatar - Voice enabled' },
+    { id: 'Alessandra_ProfessionalLook_public', name: 'Alessandra Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Alessandra_ProfessionalLook2_public', name: 'Alessandra Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Amina_CasualLook_public', name: 'Amina Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Amina_Chair_Sitting_public', name: 'Amina Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Amina_Black_Suit_public', name: 'Amina in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Amina_Blue_Suit_public', name: 'Amina in Blue Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Amina_ProfessionalLook_public', name: 'Amina Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Amina_ProfessionalLook2_public', name: 'Amina Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Anastasia_CasualLook_public', name: 'Anastasia Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Anastasia_Chair_Sitting_public', name: 'Anastasia Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Anastasia_Black_Suit_public', name: 'Anastasia in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Anastasia_Grey_Shirt_public', name: 'Anastasia in Grey Shirt', description: 'Public avatar - Voice enabled' },
+    { id: 'Anastasia_ProfessionalLook_public', name: 'Anastasia Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Anastasia_ProfessionalLook2_public', name: 'Anastasia Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Ann_Doctor_Sitting_public', name: 'Ann Doctor Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Ann_Doctor_Standing2_public', name: 'Ann Doctor Standing', description: 'Public avatar - Voice enabled' },
+    { id: 'Ann_Therapist_public', name: 'Ann Therapist', description: 'Public avatar - Voice enabled' },
+    { id: 'Anthony_CasualLook_public', name: 'Anthony Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Anthony_Chair_Sitting_public', name: 'Anthony Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Anthony_Black_Suit_public', name: 'Anthony in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Anthony_White_Suit_public', name: 'Anthony in White Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Anthony_ProfessionalLook_public', name: 'Anthony Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Anthony_ProfessionalLook2_public', name: 'Anthony Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Bryan_FitnessCoach_public', name: 'Bryan Fitness Coach', description: 'Public avatar - Voice enabled' },
+    { id: 'Bryan_IT_Sitting_public', name: 'Bryan Tech Expert', description: 'Public avatar - Voice enabled' },
+    { id: 'Dexter_Doctor_Sitting2_public', name: 'Dexter Doctor Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Dexter_Doctor_Standing2_public', name: 'Dexter Doctor Standing', description: 'Public avatar - Voice enabled' },
+    { id: 'Dexter_Lawyer_Sitting_public', name: 'Dexter Lawyer', description: 'Public avatar - Voice enabled' },
+    { id: 'Elenora_FitnessCoach2_public', name: 'Elenora Fitness Coach', description: 'Public avatar - Voice enabled' },
+    { id: 'Elenora_FitnessCoach_public', name: 'Elenora Fitness Coach 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Elenora_IT_Sitting_public', name: 'Elenora Tech Expert', description: 'Public avatar - Voice enabled' },
+    { id: 'Graham_CasualLook_public', name: 'Graham Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Graham_Chair_Sitting_public', name: 'Graham Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Graham_Black_Shirt_public', name: 'Graham in Black Shirt', description: 'Public avatar - Voice enabled' },
+    { id: 'Graham_Black_Suit_public', name: 'Graham in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Graham_ProfessionalLook_public', name: 'Graham Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Graham_ProfessionalLook2_public', name: 'Graham Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Judy_Doctor_Sitting2_public', name: 'Judy Doctor Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Judy_Doctor_Standing2_public', name: 'Judy Doctor Standing', description: 'Public avatar - Voice enabled' },
+    { id: 'Judy_Teacher_Sitting_public', name: 'Judy HR', description: 'Public avatar - Voice enabled' },
+    { id: 'Judy_Lawyer_Sitting2_public', name: 'Judy Lawyer', description: 'Public avatar - Voice enabled' },
+    { id: 'Judy_Teacher_Sitting2_public', name: 'Judy Teacher Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Judy_Teacher_Standing_public', name: 'Judy Teacher Standing', description: 'Public avatar - Voice enabled' },
+    { id: 'June_HR_public', name: 'June HR', description: 'Public avatar - Voice enabled' },
+    { id: 'Katya_CasualLook_public', name: 'Katya Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Katya_Chair_Sitting_public', name: 'Katya Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Katya_Black_Suit_public', name: 'Katya in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Katya_Pink_Suit_public', name: 'Katya in Pink Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Katya_ProfessionalLook_public', name: 'Katya Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Katya_ProfessionalLook2_public', name: 'Katya Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Marianne_CasualLook_public', name: 'Marianne Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Marianne_Chair_Sitting_public', name: 'Marianne Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Marianne_Black_Suit_public', name: 'Marianne in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Marianne_Red_Suit_public', name: 'Marianne in Red Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Marianne_ProfessionalLook_public', name: 'Marianne Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Marianne_ProfessionalLook2_public', name: 'Marianne Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Pedro_CasualLook_public', name: 'Pedro Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Pedro_Chair_Sitting_public', name: 'Pedro Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Pedro_Black_Suit_public', name: 'Pedro in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Pedro_Blue_Shirt_public', name: 'Pedro in Blue Shirt', description: 'Public avatar - Voice enabled' },
+    { id: 'Pedro_ProfessionalLook_public', name: 'Pedro Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Pedro_ProfessionalLook2_public', name: 'Pedro Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Rika_CasualLook_public', name: 'Rika Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Rika_Chair_Sitting_public', name: 'Rika Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Rika_Black_Suit_public', name: 'Rika in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Rika_Blue_Suit_public', name: 'Rika in Blue Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Rika_ProfessionalLook_public', name: 'Rika Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Rika_ProfessionalLook2_public', name: 'Rika Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Santa_Fireplace_Front_public', name: 'Santa Fireplace Front', description: 'Public avatar - Voice enabled' },
+    { id: 'Shawn_Therapist_public', name: 'Shawn Therapist', description: 'Public avatar - Voice enabled' },
+    { id: 'Silas_CustomerSupport_public', name: 'Silas Customer Support', description: 'Public avatar - Voice enabled' },
+    { id: 'SilasHR_public', name: 'Silas HR', description: 'Public avatar - Voice enabled' },
+    { id: 'Thaddeus_CasualLook_public', name: 'Thaddeus Casual Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Thaddeus_Chair_Sitting_public', name: 'Thaddeus Chair Sitting', description: 'Public avatar - Voice enabled' },
+    { id: 'Thaddeus_Black_Shirt_public', name: 'Thaddeus in Black Shirt', description: 'Public avatar - Voice enabled' },
+    { id: 'Thaddeus_Black_Suit_public', name: 'Thaddeus in Black Suit', description: 'Public avatar - Voice enabled' },
+    { id: 'Thaddeus_ProfessionalLook_public', name: 'Thaddeus Professional Look', description: 'Public avatar - Voice enabled' },
+    { id: 'Thaddeus_ProfessionalLook2_public', name: 'Thaddeus Professional Look 2', description: 'Public avatar - Voice enabled' },
+    { id: 'Wayne_20240711', name: 'Wayne', description: 'Public avatar - Voice enabled' }
+];
+PS C:\Users\shree\Desktop\PRO\Heygenavatar\backend>

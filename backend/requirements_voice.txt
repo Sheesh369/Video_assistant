@@ -1,0 +1,15 @@
+# Voice Service Dependencies
+transformers>=4.35.0
+torch>=2.0.0
+torchaudio>=2.0.0
+librosa>=0.10.0
+pydub>=0.25.1
+numpy>=1.21.0
+soundfile>=0.12.1
+
+# Optional: For GPU acceleration
+# torch>=2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchaudio>=2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Audio format support
+ffmpeg-python>=0.2.0

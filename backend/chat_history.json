@@ -1,0 +1,41 @@
+{
+  "messages": [
+    {
+      "id": "1676e53d-0c69-4cc3-8ae9-b1a20cda8511",
+      "timestamp": "2025-08-25T11:36:11.592368",
+      "type": "user",
+      "content": "Explain decoders in transformers.",
+      "metadata": {
+        "source": "voice_input",
+        "input_method": "microphone",
+        "session_id": "7c8b698b-8b4b-4372-aa58-3e27ffc97812",
+        "chunks_processed": 2,
+        "recording_duration": 11.766000000061467,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "669d4511-fffb-4760-8490-fbe7505a5497",
+      "timestamp": "2025-08-25T11:36:25.957018",
+      "type": "avatar",
+      "content": "A decoder in a transformer model is a component that's used to predict the next word or character in a sequence, given the previous words or characters. It's a key part of many natural language processing tasks, such as machine translation and text summarization.\n\nIn a transformer model, the decoder is typically composed of multiple identical layers, each of which contains a multi-head self-attention mechanism, a feed-forward neural network, and a normalization layer. The self-attention mechanism allows the decoder to consider the context of the previous words or characters when predicting the next one, while the feed-forward neural network further processes the attended output.\n\nDuring training, the decoder is provided with the entire input sequence, and it learns to predict the correct output sequence one token at a time. During inference, however, the decoder only receives the previous tokens as input, and it generates the output sequence one token at a time in an autoregressive manner.\n\nThe decoder in a transformer model is particularly powerful because it can attend to the entire input sequence, even when generating long output sequences. This is in contrast to traditional recurrent neural network (RNN) based models, which only consider the previous tokens when generating the next one.\n\nIn summary, decoders in transformers are used to predict the next word or character in a sequence, and they are composed of multiple identical",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "8622e638-8179-11f0-b56d-b6d31d645160",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 18613,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "triggered_by_voice": true,
+        "voice_session_id": "7c8b698b-8b4b-4372-aa58-3e27ffc97812"
+      }
+    }
+  ],
+  "last_updated": "2025-08-25T11:36:25.969661",
+  "total_messages": 2
+}

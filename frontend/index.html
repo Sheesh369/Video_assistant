@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Live Avatar</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeyGen AI Avatar Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .status-panel {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+        }
+
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .status-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .status-label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .status-indicator {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .status-connected {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-disconnected {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-connecting {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .video-container {
+            position: relative;
+            background: #000;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #avatarVideo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-placeholder {
+            color: #666;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .chat-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        #messageInput {
+            flex: 1;
+            padding: 12px 18px;
+            border: 2px solid #e9ecef;
+            border-radius: 25px;
+            font-size: 1em;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        #messageInput:focus {
+            border-color: #667eea;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
+            color: white;
+        }
+
+        .btn-danger:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .log-section {
+            margin-top: 20px;
+            background: #f1f3f4;
+            border-radius: 10px;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .log-entry {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #333;
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 4px;
+        }
+
+        .log-error {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .log-success {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .log-info {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 HeyGen AI Avatar Assistant</h1>
+            <p>Real-time avatar conversation with AI-powered responses</p>
+        </div>
+
+        <div class="status-panel">
+            <h3 style="margin-bottom: 15px; color: #333;">Connection Status</h3>
+            <div class="status-item">
+                <span class="status-label">Overall Status:</span>
+                <span id="overallStatus" class="status-indicator status-disconnected">❌ Disconnected</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Avatar Session:</span>
+                <span id="sessionStatus" class="status-indicator status-disconnected">❌ Not Created</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Video Stream:</span>
+                <span id="videoStatus" class="status-indicator status-disconnected">❌ Disconnected</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">WebSocket:</span>
+                <span id="wsStatus" class="status-indicator status-disconnected">❌ Disconnected</span>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video id="avatarVideo" autoplay muted style="display: none;"></video>
+            <div id="videoPlaceholder" class="video-placeholder">
+                🎭 Avatar will appear here once connected
+            </div>
+        </div>
+
+        <div class="chat-section">
+            <h3 style="margin-bottom: 15px; color: #333;">Ask the Avatar:</h3>
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type your message here..."
+                    disabled
+                >
+                <button id="sendBtn" class="btn btn-primary" disabled>
+                    💬 Send
+                </button>
+                <button id="stopBtn" class="btn btn-danger" disabled>
+                    🛑 Stop
+                </button>
+            </div>
+            <button id="connectBtn" class="btn btn-primary" style="width: 100%;">
+                🔗 Connect to Avatar
+            </button>
+        </div>
+
+        <div class="log-section">
+            <h4 style="margin-bottom: 10px; color: #333;">Connection Log:</h4>
+            <div id="logContainer"></div>
+        </div>
+    </div>
+
+    <script>
+        class HeyGenAvatarClient {
+            constructor() {
+                this.peerConnection = null;
+                this.websocket = null;
+                this.sessionId = null;
+                this.isConnecting = false;
+                this.isConnected = false;
+                
+                this.initializeElements();
+                this.attachEventListeners();
+            }
+
+            initializeElements() {
+                this.elements = {
+                    overallStatus: document.getElementById('overallStatus'),
+                    sessionStatus: document.getElementById('sessionStatus'),
+                    videoStatus: document.getElementById('videoStatus'),
+                    wsStatus: document.getElementById('wsStatus'),
+                    avatarVideo: document.getElementById('avatarVideo'),
+                    videoPlaceholder: document.getElementById('videoPlaceholder'),
+                    messageInput: document.getElementById('messageInput'),
+                    sendBtn: document.getElementById('sendBtn'),
+                    stopBtn: document.getElementById('stopBtn'),
+                    connectBtn: document.getElementById('connectBtn'),
+                    logContainer: document.getElementById('logContainer')
+                };
+            }
+
+            attachEventListeners() {
+                this.elements.connectBtn.addEventListener('click', () => this.connect());
+                this.elements.sendBtn.addEventListener('click', () => this.sendMessage());
+                this.elements.stopBtn.addEventListener('click', () => this.stopSpeaking());
+                
+                this.elements.messageInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        this.sendMessage();
+                    }
+                });
+            }
+
+            log(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString();
+                const logEntry = document.createElement('div');
+                logEntry.className = `log-entry log-${type}`;
+                logEntry.textContent = `[${timestamp}] ${message}`;
+                
+                this.elements.logContainer.appendChild(logEntry);
+                this.elements.logContainer.scrollTop = this.elements.logContainer.scrollHeight;
+                
+                console.log(`[${type.toUpperCase()}] ${message}`);
+            }
+
+            updateStatus(element, text, connected) {
+                element.textContent = text;
+                element.className = `status-indicator ${connected ? 'status-connected' : 'status-disconnected'}`;
+            }
+
+            updateConnectionStatus() {
+                const allConnected = this.sessionId && this.peerConnection?.connectionState === 'connected' && this.websocket?.readyState === WebSocket.OPEN;
+                
+                this.updateStatus(this.elements.overallStatus, 
+                    allConnected ? '✅ Connected' : '❌ Disconnected', 
+                    allConnected
+                );
+                
+                this.elements.messageInput.disabled = !allConnected;
+                this.elements.sendBtn.disabled = !allConnected;
+                this.elements.stopBtn.disabled = !allConnected;
+                this.elements.connectBtn.disabled = this.isConnecting;
+                
+                if (allConnected && !this.isConnected) {
+                    this.isConnected = true;
+                    this.log('Avatar is ready for conversation!', 'success');
+                }
+            }
+
+            async connect() {
+                if (this.isConnecting) return;
+                
+                try {
+                    this.isConnecting = true;
+                    this.elements.connectBtn.innerHTML = '<div class="loading"></div> Connecting...';
+                    this.log('Starting connection to HeyGen avatar...', 'info');
+                    
+                    // Step 1: Create HeyGen session
+                    await this.createSession();
+                    
+                    // Step 2: Setup WebRTC
+                    await this.setupWebRTC();
+                    
+                    // Step 3: Connect WebSocket
+                    await this.connectWebSocket();
+                    
+                } catch (error) {
+                    this.log(`Connection failed: ${error.message}`, 'error');
+                    this.cleanup();
+                } finally {
+                    this.isConnecting = false;
+                    this.elements.connectBtn.innerHTML = '🔗 Connect to Avatar';
+                    this.updateConnectionStatus();
+                }
+            }
+
+            async createSession() {
+                this.log('Creating HeyGen session...', 'info');
+                
+                const response = await fetch('/heygen/create-session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        quality: 'medium',
+                        avatar_id: 'Thaddeus_ProfessionalLook2_public',
+                        voice: { voice_id: 'da04d9a268ac468887a68359908e55b7' }
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                
+                if (data.code !== 100) {
+                    throw new Error(`HeyGen API error: ${data.message}`);
+                }
+                
+                this.sessionData = data.data;
+                this.sessionId = this.sessionData.session_id;
+                
+                this.updateStatus(this.elements.sessionStatus, '✅ Active', true);
+                this.log(`Session created: ${this.sessionId}`, 'success');
+            }
+
+            async setupWebRTC() {
+                this.log('Setting up WebRTC connection...', 'info');
+                
+                // Create peer connection with ICE servers
+                const config = {
+                    iceServers: this.sessionData.ice_servers2 || []
+                };
+                
+                this.peerConnection = new RTCPeerConnection(config);
+                
+                // Handle connection state changes
+                this.peerConnection.onconnectionstatechange = () => {
+                    const state = this.peerConnection.connectionState;
+                    this.log(`WebRTC connection state: ${state}`, 'info');
+                    
+                    if (state === 'connected') {
+                        this.updateStatus(this.elements.videoStatus, '✅ Connected', true);
+                    } else if (state === 'failed' || state === 'disconnected') {
+                        this.updateStatus(this.elements.videoStatus, '❌ Disconnected', false);
+                    }
+                    
+                    this.updateConnectionStatus();
+                };
+
+                // Handle incoming video stream
+                this.peerConnection.ontrack = (event) => {
+                    this.log('Received video stream from avatar', 'success');
+                    this.elements.avatarVideo.srcObject = event.streams[0];
+                    this.elements.avatarVideo.style.display = 'block';
+                    this.elements.videoPlaceholder.style.display = 'none';
+                };
+
+                // Set remote description - THIS IS THE KEY FIX
+                const remoteDesc = {
+                    type: this.sessionData.sdp.type,
+                    sdp: this.sessionData.sdp.sdp  // Make sure we're using the SDP string, not the object
+                };
+                
+                this.log('Setting remote description...', 'info');
+                await this.peerConnection.setRemoteDescription(remoteDesc);
+                
+                // Create and set local answer
+                this.log('Creating local answer...', 'info');
+                const answer = await this.peerConnection.createAnswer();
+                await this.peerConnection.setLocalDescription(answer);
+                
+                this.localAnswer = answer;
+                this.log('WebRTC setup complete', 'success');
+            }
+
+            async connectWebSocket() {
+                return new Promise((resolve, reject) => {
+                    this.log('Connecting to WebSocket...', 'info');
+                    
+                    this.websocket = new WebSocket(this.sessionData.realtime_endpoint);
+                    
+                    this.websocket.onopen = () => {
+                        this.log('WebSocket connected', 'success');
+                        this.updateStatus(this.elements.wsStatus, '✅ Connected', true);
+                        
+                        // Send SDP answer
+                        this.websocket.send(JSON.stringify({
+                            type: 'sdp_answer',
+                            data: {
+                                type: 'answer',
+                                sdp: this.localAnswer.sdp
+                            }
+                        }));
+                        
+                        this.updateConnectionStatus();
+                        resolve();
+                    };
+                    
+                    this.websocket.onmessage = (event) => {
+                        const message = JSON.parse(event.data);
+                        this.log(`WebSocket message: ${message.type}`, 'info');
+                    };
+                    
+                    this.websocket.onerror = (error) => {
+                        this.log(`WebSocket error: ${error}`, 'error');
+                        this.updateStatus(this.elements.wsStatus, '❌ Error', false);
+                        reject(new Error('WebSocket connection failed'));
+                    };
+                    
+                    this.websocket.onclose = () => {
+                        this.log('WebSocket disconnected', 'info');
+                        this.updateStatus(this.elements.wsStatus, '❌ Disconnected', false);
+                        this.updateConnectionStatus();
+                    };
+                    
+                    // Timeout after 10 seconds
+                    setTimeout(() => {
+                        if (this.websocket.readyState !== WebSocket.OPEN) {
+                            reject(new Error('WebSocket connection timeout'));
+                        }
+                    }, 10000);
+                });
+            }
+
+            sendMessage() {
+                const message = this.elements.messageInput.value.trim();
+                if (!message || !this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
+                    return;
+                }
+                
+                this.log(`Sending message: "${message}"`, 'info');
+                
+                this.websocket.send(JSON.stringify({
+                    type: 'speak',
+                    data: {
+                        text: message,
+                        task_type: 'talk'
+                    }
+                }));
+                
+                this.elements.messageInput.value = '';
+            }
+
+            stopSpeaking() {
+                if (!this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
+                    return;
+                }
+                
+                this.log('Stopping avatar speech', 'info');
+                
+                this.websocket.send(JSON.stringify({
+                    type: 'interrupt',
+                    data: {}
+                }));
+            }
+
+            cleanup() {
+                this.isConnected = false;
+                
+                if (this.websocket) {
+                    this.websocket.close();
+                    this.websocket = null;
+                }
+                
+                if (this.peerConnection) {
+                    this.peerConnection.close();
+                    this.peerConnection = null;
+                }
+                
+                this.sessionId = null;
+                this.sessionData = null;
+                
+                this.elements.avatarVideo.style.display = 'none';
+                this.elements.videoPlaceholder.style.display = 'block';
+                this.elements.avatarVideo.srcObject = null;
+                
+                this.updateStatus(this.elements.sessionStatus, '❌ Not Created', false);
+                this.updateStatus(this.elements.videoStatus, '❌ Disconnected', false);
+                this.updateStatus(this.elements.wsStatus, '❌ Disconnected', false);
+                this.updateConnectionStatus();
+            }
+        }
+
+        // Initialize the avatar client when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            window.avatarClient = new HeyGenAvatarClient();
+        });
+    </script>
+</body>
+</html> -->

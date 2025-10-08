@@ -1,0 +1,1111 @@
+{
+  "messages": [
+    {
+      "id": "05956129-90fb-491f-b2da-30dba693e992",
+      "timestamp": "2025-08-19T07:59:10.680752",
+      "type": "user",
+      "content": "explain the difference btw lm and llm",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "f96ce432-8a54-432c-a4be-f4b58de71340",
+      "timestamp": "2025-08-19T07:59:21.714294",
+      "type": "avatar",
+      "content": "Sure, I'd be happy to explain the difference between an LM and an LLM!\n\nIn the context of machine learning, an LM typically stands for a Language Model. This is a type of model that's been trained to understand and generate human language. It can be used for a variety of tasks, such as text generation, translation, and summarization.\n\nOn the other hand, an LLM can refer to a Master of Laws degree, but in the context of the information I have about Shreesha S, it seems to stand for something different. Here, LLM appears to refer to a specific tool or technology that's used in conjunction with LangChain and FastAPI to build a Generative AI-powered RAG system. Based on the context, it seems that this LLM tool is used to answer user queries from documents, and it's enhanced with advanced prompt engineering techniques like Chain of Thought prompting.\n\nSo, in summary, while both LM and LLM are related to machine learning and language processing, an LM is a more general term that refers to any language model, while an LLM in this context seems to refer to a specific tool or technology used for answering user queries from documents in a Generative AI-powered system.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "3bdf94ee-7ca4-11f0-95a5-765150b473ce",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3015,
+        "ai_service": "openai",
+        "response_time": 11034,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "6906daec-8ace-47af-bca0-408d09084d68",
+      "timestamp": "2025-08-19T08:28:15.419443",
+      "type": "user",
+      "content": "Explain generative AI and its applications.",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "12c488e8-b320-4541-ba88-91def0833a2d",
+      "timestamp": "2025-08-19T08:28:27.981424",
+      "type": "avatar",
+      "content": "Generative AI is a subset of artificial intelligence that focuses on creating new content. It's a type of model that learns patterns from input data and then uses those patterns to generate output data that is similar. This can include a wide range of content, from text and images to music and speech.\n\nIn the context of Shreesha S, generative AI is used in several applications. For instance, Shreesha has designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration. This system can deliver lip-synced, conversational responses in real time, enabling synchronous video and chunked audio playback.\n\nMoreover, Shreesha has built a Generative AI-powered RAG (Retrieval-Augmented Generation) system using LangChain, OpenAI, and FAISS. This system is used to answer user queries from documents, and it's enhanced with advanced prompt engineering techniques like Chain of Thought prompting for improved response accuracy.\n\nIn addition, Shreesha has experience in building a real-time AI avatar system using LLMs, ElevenLabs, HeyGen to enable low-latency, multi-modal conversations. This system also combines HeyGen video avatars with ElevenLabs text-to-speech and LiveKit audio streaming.\n\nThese are just a few examples of how generative AI can be",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "33a538a3-7ca8-11f0-8ac5-d2e536997134",
+        "heygen_sent": false,
+        "heygen_sessions_sent": 0,
+        "used_knowledge_base": true,
+        "context_length": 3015,
+        "ai_service": "openai",
+        "response_time": 12562,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "6873ae01-1e82-45e4-84b5-93eff3007ef8",
+      "timestamp": "2025-08-19T08:38:52.038861",
+      "type": "user",
+      "content": "what are the applications of machine learning ",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "25b2334f-9ca1-4ba0-8185-2198624d68d6",
+      "timestamp": "2025-08-19T08:39:04.591068",
+      "type": "avatar",
+      "content": "Machine learning, a core subset of artificial intelligence, has a wide range of applications. Based on Shreesha S's background, some applications of machine learning are:\n\n1. Data-driven decision-making: In a machine learning internship at CellStrat, Shreesha developed and implemented machine learning models to support data-driven decision-making.\n\n2. Exploratory data analysis (EDA) and feature engineering: Shreesha has experience in conducting EDA and feature engineering to identify key patterns and trends in data.\n\n3. Resume screening system: Shreesha developed an explainable AI and NLP-powered resume screening system using BERT embeddings and advanced bias detection and mitigation techniques, ensuring transparent decision-making.\n\n4. Document QA system: Shreesha built a LangChain and FastAPI-powered Generative AI system to answer user queries from documents, enhancing response accuracy using advanced prompt engineering techniques such as Chain of Thought prompting.\n\n5. Image captioning: Shreesha created an image captioning system combining DenseNet201 CNN encoder and LSTM decoder with attention to generate natural language descriptions.\n\nThese applications showcase the potential of machine learning in various domains, including data analysis, natural language processing, and computer vision.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "5a7c0359-7ca9-11f0-a7aa-628571a19b87",
+        "heygen_sent": false,
+        "heygen_sessions_sent": 0,
+        "used_knowledge_base": true,
+        "context_length": 2995,
+        "ai_service": "openai",
+        "response_time": 12552,
+        "total_sessions": 3,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "15849121-48b4-403e-b687-b5471717af42",
+      "timestamp": "2025-08-19T08:47:29.670520",
+      "type": "user",
+      "content": "explain embeddings ",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "5dfdd1eb-82d9-44af-ac2f-d7158e4840ac",
+      "timestamp": "2025-08-19T08:47:43.903606",
+      "type": "avatar",
+      "content": "Sure! In the context of machine learning, especially Natural Language Processing (NLP), embeddings are a type of representation that allows words or phrases with similar meanings to have a similar representation. Essentially, embeddings help to capture the semantic relationships between different words or phrases in a lower-dimensional space.\n\nIn the context of Shreesha S, embeddings have been used in a project where Shreesha developed an Explainable AI and NLP-powered Resume Screening System. Here, BERT (Bidirectional Encoder Representations from Transformers) embeddings were used to convert words in resumes into numerical vectors, which could then be analyzed by machine learning algorithms.\n\nThese embeddings help to capture the context and semantics of the words in a more sophisticated way than simple bag-of-words representations, leading to more accurate and interpretable decision-making. Overall, embeddings are a powerful tool for NLP tasks, enabling better understanding, analysis, and generation of human language.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "5a7c0359-7ca9-11f0-a7aa-628571a19b87",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2995,
+        "ai_service": "openai",
+        "response_time": 14239,
+        "total_sessions": 4,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "d7445f2e-bcd1-4950-a214-99cb6fd4998e",
+      "timestamp": "2025-08-19T08:51:40.376238",
+      "type": "user",
+      "content": "explain transformer architecture ",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "15ab9176-3480-48b4-b468-b05f8b20fc1e",
+      "timestamp": "2025-08-19T08:51:57.460919",
+      "type": "avatar",
+      "content": "The Transformer architecture is a type of model used in machine learning, particularly in the field of natural language processing (NLP). It was introduced in a paper called \"Attention is All You Need\" by Vaswani et al. in 2017. \n\nIn the context of Shreesha S, the Transformer architecture is used in the development of a Generative AI-powered Retrieval-Augmented Generation (RAG) system. This system is built using LangChain, OpenAI, and FAISS to answer user queries from documents. \n\nThe Transformer model is based on the concept of self-attention, which allows the model to weigh the importance of words in an input sequence when generating an output. This is different from traditional recurrent neural networks (RNNs) and long short-term memories (LSTMs), which process sequences one word at a time and maintain an internal state.\n\nThe Transformer model consists of an encoder and a decoder, both of which are composed of multiple layers of self-attention mechanisms and feed-forward neural networks. The encoder takes in a sequence of words and generates a continuous representation of each word, taking into account the entire context of the sequence. The decoder then generates the output sequence one word at a time, using the encoder's output as context.\n\nIn the case of Shreesha's project, the Transformer",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "5a7c0359-7ca9-11f0-a7aa-628571a19b87",
+        "heygen_sent": false,
+        "heygen_sessions_sent": 0,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 17085,
+        "total_sessions": 5,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "b69cc16a-9eaf-44b0-b896-3011217ed997",
+      "timestamp": "2025-08-19T09:03:21.774892",
+      "type": "user",
+      "content": "what are the difference btw open source and closed source models",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "faaf8443-f140-47a7-a61b-cb10f7fdacc2",
+      "timestamp": "2025-08-19T09:10:51.879820",
+      "type": "user",
+      "content": "explain photosynthesis ",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "f6ce814c-b451-46ee-b01b-e9771cd712c7",
+      "timestamp": "2025-08-19T09:11:00.932190",
+      "type": "avatar",
+      "content": "Photosynthesis is a process used by plants, algae, and some bacteria to convert light energy, usually from the sun, into chemical energy in the form of glucose or other sugars. This process typically takes place in the chloroplasts of plant cells, using water and carbon dioxide as primary reactants.\n\nIn the context of the information provided, photosynthesis is not directly mentioned. However, Shreesha S has a strong foundation in artificial intelligence, machine learning, and data science, with a focus on natural language processing and explainable AI methods. Photosynthesis is a biological process, and while it is not directly related to Shreesha's background, understanding it can still provide valuable insights into the natural world and the origins of energy that sustain life on Earth.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": null,
+        "heygen_sent": false,
+        "heygen_sessions_sent": 0,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 9052,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "successful_sessions": [],
+        "failed_sessions": [
+          "3d903eab-7cae-11f0-8ac5-d2e536997134"
+        ]
+      }
+    },
+    {
+      "id": "397c031f-c120-42eb-ad10-0a7b3886e551",
+      "timestamp": "2025-08-21T12:24:58.361689",
+      "type": "user",
+      "content": "explain photosynthisis ",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "69758635-b81c-4990-81d9-f241def7477a",
+      "timestamp": "2025-08-21T12:25:34.285884",
+      "type": "user",
+      "content": "explain photosynthisis ",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "ed0090f8-14ca-4498-b39d-45be3016c8f1",
+      "timestamp": "2025-08-21T12:25:40.402276",
+      "type": "avatar",
+      "content": "Photosynthesis is not directly mentioned in the provided context about Shreesha S's background. However, I can certainly explain photosynthesis in general. It's a process used by plants, algae, and some bacteria to convert light energy, usually from the sun, into chemical energy in the form of glucose or other sugars. This process typically takes place in the chloroplasts of plant cells, using water and carbon dioxide as primary reactants. The chemical equation for photosynthesis is:\n\n6 CO2 + 6 H2O + light energy → C6H12O6 + 6 O2\n\nIn essence, photosynthesis converts carbon dioxide and water into glucose, releasing oxygen as a byproduct. This process is essential for life on Earth, as it provides food and oxygen for plants and animals alike. Photosynthesis also plays a crucial role in reducing the amount of carbon dioxide in the atmosphere, which helps mitigate climate change.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": null,
+        "heygen_sent": false,
+        "heygen_sessions_sent": 0,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 6116,
+        "total_sessions": 0,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "09a3b045-1cc3-4283-83ac-a5f9ace717ee",
+      "timestamp": "2025-08-21T12:26:23.318349",
+      "type": "user",
+      "content": "explain agentic ai",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "74df2201-5dc4-4f19-90d3-0a885f262d40",
+      "timestamp": "2025-08-21T13:29:43.129568",
+      "type": "user",
+      "content": "explain llm in cs",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "fc0d1d49-ef48-4872-967a-c58e0ae3d363",
+      "timestamp": "2025-08-21T13:29:52.931729",
+      "type": "avatar",
+      "content": "In the context of Shreesha S, LLM likely refers to \"Language Models\" in Computer Science, given her focus on Natural Language Processing and related tools. An LLM, or Language Learning Model, is a type of artificial intelligence model designed to understand, generate, and respond to human language. These models are typically built using deep learning techniques, such as Recurrent Neural Networks (RNNs) or Transformer architectures, and are trained on large text corpora to learn patterns and structures in language.\n\nIn Shreesha's work, she has utilized LLMs like Transformers and Hugging Face Transformers to build powerful, language-based AI systems, such as a Generative AI-powered Retrieval-Augmented Generation (RAG) system for answering user queries from documents. This system, developed using LangChain, OpenAI, and FAISS, demonstrates the capabilities of LLMs in processing and generating human-like language for practical applications.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "a2b48e6e-7e64-11f0-931d-261876e3122a",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3015,
+        "ai_service": "openai",
+        "response_time": 9802,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "successful_sessions": [
+          "a2b48e6e-7e64-11f0-931d-261876e3122a"
+        ],
+        "failed_sessions": []
+      }
+    },
+    {
+      "id": "924d5704-7bac-477e-b773-920ae4581e1e",
+      "timestamp": "2025-08-21T13:30:35.849958",
+      "type": "user",
+      "content": "whats the name of the candidate?",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "dbebdcaa-c517-4bca-8dc5-19e431398d23",
+      "timestamp": "2025-08-21T13:30:41.353633",
+      "type": "avatar",
+      "content": "The name of the candidate is Shreesha S. You can reach out to them via their email address, shreeshas06@gmail.com, or contact them directly at +91 9663339033. Shreesha is an engineering student with a strong foundation in data science and machine learning, currently pursuing a Bachelor of Engineering in Artificial Intelligence and Machine Learning at Dayananda Sagar College of Engineering in Bengaluru, Karnataka, India.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": null,
+        "heygen_sent": false,
+        "heygen_sessions_sent": 0,
+        "used_knowledge_base": true,
+        "context_length": 2995,
+        "ai_service": "openai",
+        "response_time": 5504,
+        "total_sessions": 0,
+        "has_conversation_context": true,
+        "successful_sessions": [],
+        "failed_sessions": []
+      }
+    },
+    {
+      "id": "be9d3dab-a101-43eb-b404-5a6eecd94c25",
+      "timestamp": "2025-08-21T13:45:11.601667",
+      "type": "user",
+      "content": "explain embeddings",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "4021170f-84db-4a6c-8d73-7f0406b6962f",
+      "timestamp": "2025-08-21T13:45:22.830637",
+      "type": "avatar",
+      "content": "Embeddings are a type of word representation that allows words with similar meaning to have a similar representation. They are a crucial part of Natural Language Processing (NLP) and are often used in machine learning models to better understand and process language data.\n\nIn the context of Shreesha S's project, BERT (Bidirectional Encoder Representations from Transformers) embeddings were used in their Explainable AI and NLP-Powered Resume Screening System. BERT is a popular NLP model developed by Google that creates context-aware word embeddings. This means that BERT embeddings take into account the surrounding words in a sentence to better understand the meaning of a word.\n\nBy using BERT embeddings, Shreesha's resume screening system can better understand the language used in resumes and make more informed decisions about which resumes are relevant to a particular job posting. This helps ensure a fair and unbiased hiring process, as the system is not relying on simple keyword matching but rather a more nuanced understanding of language.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "e17c3a4f-7e66-11f0-8cce-0a6caaa1e677",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 11229,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "successful_sessions": [
+          "e17c3a4f-7e66-11f0-8cce-0a6caaa1e677"
+        ],
+        "failed_sessions": []
+      }
+    },
+    {
+      "id": "90342ef0-e2dd-40b6-a35a-f5606b39f0bb",
+      "timestamp": "2025-08-21T13:47:03.876981",
+      "type": "user",
+      "content": "explain webrtc",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "ba9e2599-f4f1-4f31-a7c0-66b86cf6e419",
+      "timestamp": "2025-08-21T13:47:12.263590",
+      "type": "avatar",
+      "content": "WebRTC, or Web Real-Time Communication, is a technology that enables real-time communication via web browsers. In the context of Shreesha S's project, the Real-Time AI Avatar Conversational System, WebRTC is used for low-latency, multi-modal conversations between the AI avatar and users.\n\nShreesha combined HeyGen video avatars with ElevenLabs text-to-speech (TTS) and LiveKit audio streaming using WebRTC. This technology stack enabled synchronous video and chunked audio playback, delivering lip-synced, conversational responses in real-time.\n\nBy utilizing WebRTC, Shreesha's AI avatar system ensures smooth and responsive interactions between the AI and users, allowing for a more engaging and dynamic user experience.\n\nConfidence: 90%.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "2df7d860-7e67-11f0-96af-aa20445423f8",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3010,
+        "ai_service": "openai",
+        "response_time": 8397,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "successful_sessions": [
+          "2df7d860-7e67-11f0-96af-aa20445423f8"
+        ],
+        "failed_sessions": []
+      }
+    },
+    {
+      "id": "5030b517-aac3-4fd8-858e-c82302acc254",
+      "timestamp": "2025-08-21T14:00:26.208280",
+      "type": "user",
+      "content": "explain transformers",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "6703f3a8-cad1-4633-9bdd-8361fa938bba",
+      "timestamp": "2025-08-21T14:02:49.473693",
+      "type": "user",
+      "content": "what project has this candidate worked on?",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "49c009cd-08df-46dd-93cf-e794f57907ce",
+      "timestamp": "2025-08-21T21:10:32.195469",
+      "type": "user",
+      "content": "explain transformers",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "bb89c6fc-0213-489d-b4a9-abb9d409d422",
+      "timestamp": "2025-08-21T21:19:42.265466",
+      "type": "user",
+      "content": "explain oxygen",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "ba1a5c0c-c44f-4af2-87ac-36a1e1f25c7b",
+      "timestamp": "2025-08-21T21:36:21.096768",
+      "type": "user",
+      "content": "explain llm",
+      "metadata": {
+        "source": "text_input",
+        "voice_used": false,
+        "input_method": "keyboard",
+        "session_id": null
+      }
+    },
+    {
+      "id": "c74042c1-5adf-40e2-abcc-0f8c08277158",
+      "timestamp": "2025-08-21T21:44:24.571146",
+      "type": "user",
+      "content": "explain langgraph",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "1c5b5df3-6902-4c68-adea-681ffdee2fe3",
+      "timestamp": "2025-08-21T21:44:37.037148",
+      "type": "avatar",
+      "content": "Langgraph is a graph-based language model that understands and generates human-like text using a neural network. It's part of Shreesha S's technical skills, as mentioned in their resume. This model is capable of understanding the context and relationships between different words and concepts, making it particularly useful for natural language processing tasks.\n\nIn the context of Shreesha's projects, Langgraph might have been used to build the GenAI-powered RAG system (Retriever-Augmented Generator) mentioned in their resume. This system uses Langchain, OpenAI, and FAISS to answer user queries from documents, and Langgraph could help generate more accurate and contextually relevant responses. However, the specific usage of Langgraph in the projects is not detailed in the provided context.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": null,
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3005,
+        "ai_service": "openai",
+        "response_time": 12464,
+        "total_sessions": 0,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "db13b1f5-7ca8-4063-9527-b53874680e96",
+      "timestamp": "2025-08-21T21:50:58.816239",
+      "type": "user",
+      "content": "explain kubernetes ",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "33885f33-dfb2-42eb-b8c3-e511e8367faf",
+      "timestamp": "2025-08-21T21:51:10.761776",
+      "type": "avatar",
+      "content": "Kubernetes is an open-source platform designed to automate deploying, scaling, and managing containerized applications. In Shreesha S's projects, Kubernetes could be used to orchestrate and manage the containers that house the various microservices in their FastAPI backend. This would help ensure smooth communication between the services, handle high traffic loads, and enable efficient resource usage.\n\nFor instance, in Shreesha's Explainable AI and NLP-Powered Resume Screening System and the LLM-Powered Document QA System, Kubernetes could manage the containers for the FastAPI, PyTorch, Transformers, SHAP, Scikit-learn, and Pandas components. This would help optimize the performance and availability of these AI-driven systems.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "bde8dff9-7eaa-11f0-a564-ae3c96eeee30",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3005,
+        "ai_service": "openai",
+        "response_time": 11946,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "7685b6ec-8bd5-47bf-8d1a-36dc28e8e66c",
+      "timestamp": "2025-08-21T22:02:45.880327",
+      "type": "user",
+      "content": "explain hyper parameters",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "2cf5a8d0-9242-4137-8f5a-073eea52afd9",
+      "timestamp": "2025-08-21T22:02:56.652704",
+      "type": "avatar",
+      "content": "Hyperparameters are configuration values that you set when training a machine learning model. They are not learned from the data, unlike model parameters. Examples of hyperparameters include the learning rate, the number of layers in a neural network, and the regularization strength.\n\nIn the context of Shreesha's projects, they might have used hyperparameters when training the machine learning models for their Explainable AI and NLP-Powered Resume Screening System and the LLM-Powered Document QA System. For instance, they could have adjusted the learning rate to speed up or slow down the optimization process, or they might have used dropout regularization to prevent overfitting.\n\nIn the Deep Learning-Based Image Captioning project, Shreesha could have used hyperparameters to control the CNN and LSTM architectures, such as the number of units in the LSTM layers or the dropout rate. These hyperparameters would have a significant impact on the captioning system's performance, and finding the optimal values would require careful tuning and experimentation.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "68f07e36-7eac-11f0-9291-aa1a239f562d",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 10773,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "bbacdcb2-18c3-4f44-b6d7-f8fdffede187",
+      "timestamp": "2025-08-21T22:45:51.327945",
+      "type": "avatar",
+      "content": "Spam detection is the process of identifying and filtering out unsolicited, unwanted, or harmful content, often in the context of digital communications such as emails or messages. In the context of Shreesha S's projects, spam detection might involve using machine learning algorithms to classify messages as either legitimate or spam based on certain features or patterns.\n\nFor instance, in Shreesha's Explainable AI and NLP-Powered Resume Screening System, spam detection could be used to filter out irrelevant or unqualified resumes based on specific keywords or features. Similarly, in the LLM-Powered Document QA System using LangChain and FastAPI, spam detection could help identify and block inappropriate or off-topic user queries.\n\nOverall, spam detection plays a crucial role in ensuring the quality and relevance of the information that Shreesha's AI-driven systems process and generate, thereby enhancing the user experience and preventing potential misuse or abuse.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "5e0bac7f-7eb2-11f0-931d-261876e3122a",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3005,
+        "ai_service": "openai",
+        "response_time": 16645,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "7e59c180-3a56-407f-b547-8fac195e3c17",
+      "timestamp": "2025-08-21T23:28:59.870128",
+      "type": "user",
+      "content": "photosynthesis?",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "99ec8f5c-9ca1-40cf-8248-f62683ebcacd",
+      "timestamp": "2025-08-21T23:29:13.671239",
+      "type": "avatar",
+      "content": "Photosynthesis is the process by which plants and other organisms convert light energy, usually from the sun, into chemical energy that can later be released to fuel the organisms' activities. This transformation typically occurs in the chloroplasts, specifically through a process that involves water, carbon dioxide, and light.\n\nHowever, I couldn't find any information related to photosynthesis in the context you provided about Shreesha S's projects, education, or experiences. It seems that photosynthesis is not directly relevant to the topics we've been discussing. If you have any specific questions about Shreesha S's work or related concepts, please feel free to ask!",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "7ab734fd-7eb8-11f0-af8a-d66588dd21b9",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3010,
+        "ai_service": "openai",
+        "response_time": 13801,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "433f3f86-c24f-459f-8589-940d0a61df03",
+      "timestamp": "2025-08-22T14:25:20.596155",
+      "type": "avatar",
+      "content": "Agentic AI refers to artificially intelligent systems that can act autonomously and adapt to their environment to achieve specific goals. They make decisions and perform actions based on the context and their objectives, showing a level of initiative and autonomy.\n\nIn the context of Shreesha S's projects, agentic AI might be reflected in the GenAI-powered RAG system, which uses LangChain, OpenAI, and FAISS to answer user queries from documents. This system can generate responses proactively by retrieving and summarizing information from documents, demonstrating a level of autonomy in its operation.\n\nAdditionally, the Explainable AI and NLP-Powered Resume Screening System could also exhibit agentic AI by automatically screening resumes and highlighting relevant information for recruiters, making decisions based on the input data and the system's objectives.\n\nOverall, Shreesha S's projects showcase the potential of agentic AI to automate complex tasks, make informed decisions, and adapt to dynamic environments, ultimately improving the efficiency and effectiveness of various processes.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "a3b33737-7f35-11f0-9a36-5232beb29960",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3005,
+        "ai_service": "openai",
+        "response_time": 19519,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "triggered_by_voice": true,
+        "voice_session_id": "c9c018fc-a629-4d10-ad51-0f928b01d6ef"
+      }
+    },
+    {
+      "id": "512de76a-b156-4914-898b-e64fbe44370c",
+      "timestamp": "2025-08-22T14:55:38.005554",
+      "type": "user",
+      "content": "hi",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "415fe28e-9d0a-4f66-9383-979a2b034bfe",
+      "timestamp": "2025-08-22T14:55:47.056201",
+      "type": "avatar",
+      "content": "Hello! It's nice to see you too. I see we've previously discussed various topics related to Shreesha S's projects, education, and experiences. To recap, Shreesha S is an engineering student with a strong foundation in machine learning and Generative AI, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIf you have any specific questions about Shreesha S's projects, like the Real-Time AI Avatar Conversational System or the Explainable AI and NLP-Powered Resume Screening System, or if you want to know more about their education and skills, feel free to ask! I'm here to help.\n\nRegarding your previous question about photosynthesis, it doesn't seem to be related to the context we've been discussing about Shreesha S. If you'd like, we can explore that topic further or continue discussing Shreesha S's projects, experiences, and skills.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "e98fafde-7f39-11f0-addf-56e7be110834",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 9014,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "ba1fc342-4689-4f9f-b938-3c8a2795d5b8",
+      "timestamp": "2025-08-22T14:56:25.510917",
+      "type": "avatar",
+      "content": "Hello! I see that we've been discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in data science and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIn the context of Shreesha's projects, they've worked on a Real-Time AI Avatar Conversational System which involves a cloud-native, real-time AI avatar system combining HeyGen video avatars with ElevenLabs TTS and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nAdditionally, Shreesha has developed an Explainable AI and NLP-Powered Resume Screening System using BERT embeddings and advanced bias detection and mitigation techniques. They've also implemented Explainable AI (XAI) methods such as LIME to highlight influential words and ensure transparent decision-making.\n\nI hope this recap helps! If you have any specific questions about Shreesha's projects, education, or skills, please feel free to ask.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "04ccd45f-7f3a-11f0-931d-261876e3122a",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3005,
+        "ai_service": "openai",
+        "response_time": 9772,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "d42eacb5-f3b3-4fa9-8de6-5fae6e145bf7",
+      "timestamp": "2025-08-22T14:56:57.504054",
+      "type": "user",
+      "content": "hello",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "71c33ed8-b61d-41eb-a196-fec2f87c2afa",
+      "timestamp": "2025-08-22T14:57:08.123600",
+      "type": "avatar",
+      "content": "Hello! It's nice to see you too. I see we've previously discussed Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIn the context of Shreesha's projects, they've worked on a Real-Time AI Avatar Conversational System which involves a cloud-native, real-time AI avatar system combining HeyGen video avatars with ElevenLabs TTS and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nShreesha has also developed an Explainable AI and NLP-Powered Resume Screening System using BERT embeddings and advanced bias detection and mitigation techniques. They've implemented Explainable AI (XAI) methods such as LIME to highlight influential words and ensure transparent decision-making.\n\nI hope this recap helps! If you have any questions about Shreesha's projects, education, or skills, please feel free to ask.\n\nRegarding your previous question about photosynt",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "1ca30fc9-7f3a-11f0-90fe-1af67db361d6",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 10620,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "4ab7d8a8-8078-4c04-93ec-a4bc0db51f3f",
+      "timestamp": "2025-08-22T15:10:25.933332",
+      "type": "user",
+      "content": "explain law",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "275a67ed-147c-4346-88e6-29cd8dea8c40",
+      "timestamp": "2025-08-22T15:10:36.665066",
+      "type": "avatar",
+      "content": "In the context of Shreesha S's projects, law might be discussed in the context of ethical considerations. For instance, in the Explainable AI and NLP-Powered Resume Screening System, Shreesha has conducted statistical parity and intersectional bias analysis to promote ethical hiring practices. This shows that Shreesha considers legal and ethical aspects when designing and implementing AI-driven systems.\n\nHowever, if you're referring to a specific legal framework or concept, I would need more information to provide an accurate explanation.\n\nIn general, law refers to a system of rules and guidelines that regulate the behavior of individuals and organizations within a society, enforced by social institutions and the state. Laws can cover a wide range of topics, from civil and criminal matters to business and international relations.\n\nIn the context of AI, law might involve regulations related to privacy, data protection, or ethical considerations in the development and deployment of AI-driven systems.\n\nIf you have a specific legal concept in mind, feel free to provide more context, and I'll be happy to help.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "fd037df4-7f3b-11f0-87a4-9ee3eb592d75",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3000,
+        "ai_service": "openai",
+        "response_time": 10733,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "539d5039-b753-4526-aee9-e06710009733",
+      "timestamp": "2025-08-22T15:12:20.118202",
+      "type": "user",
+      "content": "hi",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "6072ad77-fbda-4f8c-9a21-0679c7f0c169",
+      "timestamp": "2025-08-22T15:12:34.059445",
+      "type": "avatar",
+      "content": "Hello! I see we've been discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIn the context of Shreesha's projects, they've worked on a Real-Time AI Avatar Conversational System which involves a cloud-native, real-time AI avatar system combining HeyGen video avatars with ElevenLabs TTS and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nShreesha has also developed an Explainable AI and NLP-Powered Resume Screening System using BERT embeddings and advanced bias detection and mitigation techniques. They've implemented Explainable AI (XAI) methods such as LIME to highlight influential words and ensure transparent decision-making.\n\nI hope this recap helps! If you have any questions about Shreesha's projects, education, or skills, please feel free to ask.\n\nRegarding your previous question about law, I can provide context from Shreesha's",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "444349fe-7f3c-11f0-bbf7-4ef93ec80cb6",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 13941,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "2dd9dede-2625-46c1-95e9-79b762134e4d",
+      "timestamp": "2025-08-22T15:23:23.120154",
+      "type": "user",
+      "content": "hi",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "b9e5eb0b-9255-453b-9a03-d72dd392a427",
+      "timestamp": "2025-08-22T15:23:35.421028",
+      "type": "avatar",
+      "content": "Hello! I see we've been discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIn the context of Shreesha's projects, they've worked on a Real-Time AI Avatar Conversational System which involves a cloud-native, real-time AI avatar system combining HeyGen video avatars with ElevenLabs TTS and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nShreesha has also developed an Explainable AI and NLP-Powered Resume Screening System using BERT embeddings and advanced bias detection and mitigation techniques. They've implemented Explainable AI (XAI) methods such as LIME to highlight influential words and ensure transparent decision-making.\n\nBased on their resume, Shreesha has a strong background in machine learning and AI, including experience with LangChain, OpenAI API, FAISS, FastAPI, Docker, and various other tools and libraries. They've also completed several",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "d210d13b-7f3d-11f0-90fe-1af67db361d6",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 12302,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "2f2157bb-019b-4ed9-adb0-b1f1172e034d",
+      "timestamp": "2025-08-22T15:30:53.745811",
+      "type": "user",
+      "content": "what do u do?",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "b84615c2-de2d-447d-9dc9-82b0b9b6f922",
+      "timestamp": "2025-08-22T15:31:07.024492",
+      "type": "avatar",
+      "content": "As a helpful AI assistant, I assist with various tasks, such as providing explanations, answering questions, and offering recommendations based on the given context. Currently, I'm discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nShreesha's projects include creating a Real-Time AI Avatar Conversational System, which uses HeyGen video avatars, ElevenLabs TTS, and LiveKit audio streaming. Shreesha also developed an Explainable AI and NLP-Powered Resume Screening System with BERT embeddings, advanced bias detection, and mitigation techniques.\n\nIn my role, I aim to provide relevant, concise, and engaging information based on the context provided. I'm here to help answer questions and facilitate a smooth conversation. If you have any questions about Shreesha's projects, education, or skills, please feel free to ask.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "dba2b5d9-7f3e-11f0-b56d-b6d31d645160",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3010,
+        "ai_service": "openai",
+        "response_time": 13273,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "2e42a8b4-771c-4491-919a-806cea0e071d",
+      "timestamp": "2025-08-22T15:37:02.562062",
+      "type": "user",
+      "content": "hi",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "b3113d9e-2033-4856-b7a5-2d58330f3fd4",
+      "timestamp": "2025-08-22T15:37:18.663606",
+      "type": "avatar",
+      "content": "Hello! I see we've been discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIn the context of Shreesha's projects, they've worked on a Real-Time AI Avatar Conversational System which involves a cloud-native, real-time AI avatar system combining HeyGen video avatars with ElevenLabs TTS and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nShreesha has also developed an Explainable AI and NLP-Powered Resume Screening System using BERT embeddings and advanced bias detection and mitigation techniques. They've implemented Explainable AI (XAI) methods such as LIME to highlight influential words and ensure transparent decision-making.\n\nShreesha has completed several certifications, including a Machine Learning Bootcamp at CellStrat and Python for Machine Learning & Data Science Masterclass on Udemy.\n\nI hope this recap helps! If you have any questions about Shrees",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "b7440251-7f3f-11f0-90fe-1af67db361d6",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 16111,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "1a14b030-4345-4a89-b9a6-af9181352f32",
+      "timestamp": "2025-08-22T15:37:56.278591",
+      "type": "user",
+      "content": "hello",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "b7b11ba1-fbe2-4de4-9ba7-50df9d3fb1d3",
+      "timestamp": "2025-08-22T15:38:05.415277",
+      "type": "avatar",
+      "content": "Hello! I see we've been discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nIn the context of Shreesha's projects, they've worked on a Real-Time AI Avatar Conversational System which involves a cloud-native, real-time AI avatar system combining HeyGen video avatars with ElevenLabs TTS and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nShreesha has also developed an Explainable AI and NLP-Powered Resume Screening System using BERT embeddings and advanced bias detection and mitigation techniques. They've implemented Explainable AI (XAI) methods such as LIME to highlight influential words and ensure transparent decision-making.\n\nShreesha has completed certifications like the Machine Learning Bootcamp at CellStrat and Python for Machine Learning & Data Science Masterclass on Udemy, and has experience with technologies such as LangChain, OpenAI API, FAISS, Fast",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "d61798d8-7f3f-11f0-96af-aa20445423f8",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 9138,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "5b025d10-82dd-45cf-a8f0-a8027cdc271d",
+      "timestamp": "2025-08-22T16:05:53.097900",
+      "type": "user",
+      "content": "hi",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "a2da9b98-e102-4cbf-b672-49496e388a59",
+      "timestamp": "2025-08-22T16:06:04.283460",
+      "type": "avatar",
+      "content": "Hello! I see we've been discussing Shreesha S's background and projects. Shreesha is an engineering student with a strong foundation in AI and ML, currently working as a GenAI Engineer at Sash AI. They have experience in building real-time AI systems, applying prompt engineering, and working with various tools and technologies such as Python, LangChain, OpenAI API, FastAPI, and Docker.\n\nShreesha's projects include creating a Real-Time AI Avatar Conversational System, which uses HeyGen video avatars, ElevenLabs TTS, and LiveKit audio streaming. They've also designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nShreesha has completed certifications like the Machine Learning Bootcamp at CellStrat and Python for Machine Learning & Data Science Masterclass on Udemy.\n\nI hope this recap helps! If you have any questions about Shreesha's projects, education, or skills, please feel free to ask.\n\nAs for Shreesha's educational background, they are studying Artificial Intelligence and Machine Learning at Dayananda Sagar College of Engineering in Bengaluru, Karnataka, with an impressive CGPA of 9.13.\n\nIs there anything specific you would like to know about Shreesha's",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "bc99a018-7f43-11f0-96a4-8612eda18297",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 11190,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "b05f6075-ea31-40c6-89a2-ce112c3e0f4f",
+      "timestamp": "2025-08-23T21:28:24.419163",
+      "type": "user",
+      "content": "explain agentic ai",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "8b31c50d-efb4-4d7d-ad77-1dc876420d41",
+      "timestamp": "2025-08-23T21:28:38.012186",
+      "type": "avatar",
+      "content": "Agentic AI refers to artificial intelligence systems that can act autonomously and proactively to achieve specific goals while considering the context and environment. They're designed to make decisions and perform tasks independently, with some level of human oversight.\n\nIn the context of Shreesha's projects, they've developed an agentic AI system in the Real-Time AI Avatar Conversational System. This system combines various AI tools and technologies, such as HeyGen video avatars, ElevenLabs Text-to-Speech (TTS), and LiveKit audio streaming, to create a cloud-native, real-time AI avatar system.\n\nThe agentic AI, in this case, enables synchronous video and chunked audio playback, delivering lip-synced, conversational responses in real-time. Shreesha achieved this by designing a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration.\n\nBy creating this Real-Time AI Avatar Conversational System, Shreesha demonstrated their ability to design and implement an agentic AI system capable of handling complex, real-time conversations.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "f393ec06-8039-11f0-addf-56e7be110834",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3010,
+        "ai_service": "openai",
+        "response_time": 13594,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "c1ad00a5-4b21-44c8-81cb-0f7eb6748eb5",
+      "timestamp": "2025-08-23T21:29:30.514356",
+      "type": "user",
+      "content": "difference between llm and slm",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "d8a34ee1-ff21-4dae-9c75-3707df0d1681",
+      "timestamp": "2025-08-23T21:29:39.356799",
+      "type": "avatar",
+      "content": "I apologize for any confusion, but the provided context doesn't mention or define the term \"slm.\" However, \"LLM\" stands for \"Language Model\" in the context of Shreesha's projects. For instance, Shreesha built an LLM-Powered Document QA System using LangChain and FastAPI. In this case, an LLM refers to a type of AI model that understands and generates human-like text based on input data.\n\nSince I don't have information on \"slm\" from the context you provided, I would be happy to help you with any other questions or clarify more details about LLMs or other topics related to Shreesha's background.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "f393ec06-8039-11f0-addf-56e7be110834",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3010,
+        "ai_service": "openai",
+        "response_time": 8843,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "bfd55c76-e174-478b-9a1e-1d5a344c491c",
+      "timestamp": "2025-08-23T21:30:16.184632",
+      "type": "user",
+      "content": "explain gen ai.",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "ecfdac36-01a5-4a04-8bde-e1dde8066f68",
+      "timestamp": "2025-08-23T21:30:26.291273",
+      "type": "avatar",
+      "content": "GenAI, or Generative AI, is a subset of artificial intelligence that focuses on creating new content by learning from input data. It involves training AI models to understand patterns, structures, and dependencies in the data to generate human-like text, images, or other forms of content.\n\nIn the context of Shreesha's projects, GenAI is utilized in the LangChain-powered RAG (Retrieve, Answer, Generate) system. This system answers user queries from documents by retrieving relevant information and generating concise answers. Shreesha enhanced response accuracy using advanced prompt engineering techniques like Chain of Thought prompting.\n\nAdditionally, Shreesha designed a microservices-based FastAPI backend with WebSocket support for low-latency prompt handling and streaming orchestration. This backend enables synchronous video and chunked audio playback, delivering lip-synced, conversational responses in real-time.\n\nShreesha's technical skills include Python, LangChain, OpenAI API, FAISS, FastAPI, Docker, and Prompt Engineering, demonstrating their expertise in GenAI technology.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "f393ec06-8039-11f0-addf-56e7be110834",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3015,
+        "ai_service": "openai",
+        "response_time": 10107,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "be3d4166-a50d-4c5d-9036-b39da5ade452",
+      "timestamp": "2025-08-23T22:55:28.145188",
+      "type": "user",
+      "content": "explain gen ai",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "3947286c-1386-409a-a519-53deea529cbc",
+      "timestamp": "2025-08-23T22:55:41.391449",
+      "type": "avatar",
+      "content": "GenAI, or Generative AI, is a subset of artificial intelligence that focuses on creating new content by learning from input data. It involves training AI models to understand patterns, structures, and dependencies in the data to generate human-like text, images, or other forms of content.\n\nIn Shreesha's projects and work, GenAI is used in various applications. For instance, Shreesha built a GenAI-powered RAG (Retrieve, Answer, Generate) system using LangChain, OpenAI, and FAISS to answer user queries from documents. They also developed a LangChain-powered Document QA System using LangChain and FastAPI, which generates concise answers based on the user's queries.\n\nShreesha's technical skills include Python, LangChain, OpenAI API, FAISS, and FastAPI, demonstrating their expertise in GenAI technology. They have successfully implemented GenAI systems in real-world projects, showcasing their ability to work with Generative AI effectively.\n\nAs a GenAI Engineer at Sash AI, Shreesha has built a real-time AI avatar system using LLMs, ElevenLabs, HeyGen, and LiveKit to enable low-latency, multi-modal conversations. This project further highlights their ability to design and implement GenAI systems in practical scenarios.",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "1e53b819-8046-11f0-b56d-b6d31d645160",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 3015,
+        "ai_service": "openai",
+        "response_time": 13252,
+        "total_sessions": 1,
+        "has_conversation_context": true
+      }
+    },
+    {
+      "id": "bae464c9-9b8d-464c-baeb-af7695540f14",
+      "timestamp": "2025-08-24T20:54:35.925170",
+      "type": "user",
+      "content": "what projects has the candidate worked on?",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "cd665bb2-ae71-4b76-a0e9-58b1140d70bf",
+      "timestamp": "2025-08-24T20:54:57.563001",
+      "type": "avatar",
+      "content": "Shreesha has worked on several projects, both in their professional and personal capacities. As a Data Science Intern at Nuevera Infotech Pvt Ltd, they performed data wrangling and exploratory data analysis on large datasets, automating data processing tasks and developing reproducible workflows for efficiency.\n\nShreesha also worked as a Machine Learning Intern at CellStrat, where they developed and implemented machine learning models to support data-driven decision-making. They conducted exploratory data analysis and feature engineering to identify key patterns and trends.\n\nIn terms of personal projects, Shreesha developed an Explainable AI and NLP-Powered Resume Screening System. This project involved creating a fair, interpretable AI resume screening system using BERT embeddings and advanced bias detection and mitigation techniques. Shreesha also built a GenAI-powered RAG system using LangChain, OpenAI, and FAISS to answer user queries from documents.\n\nAdditionally, Shreesha created a Deep Learning-Based Image Captioning with CNN and LSTM, combining a DenseNet201 CNN encoder and LSTM decoder with attention to generate natural language descriptions for images. They also developed custom tokenization and text preprocessing pipelines using Keras and deployed the model with a Streamlit app to generate captions for new images in real-time.\n\nThese projects demonstrate Shreesha'",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "62123d87-80fe-11f0-be7e-6ede6198d2fc",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2995,
+        "ai_service": "openai",
+        "response_time": 21638,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "chunked_response": true
+      }
+    },
+    {
+      "id": "3ba67ee5-cc8d-499a-82ae-1449fa88da6c",
+      "timestamp": "2025-08-24T20:55:50.346884",
+      "type": "user",
+      "content": "hi",
+      "metadata": {
+        "source": "text_input",
+        "input_method": "keyboard",
+        "session_id": null,
+        "voice_used": false
+      }
+    },
+    {
+      "id": "ed9ee009-b819-42ea-88cd-97ad45db3b8d",
+      "timestamp": "2025-08-24T20:56:06.494619",
+      "type": "avatar",
+      "content": "Hello! I'm here to help with any questions you have. From the provided context, I can see that Shreesha has worked on various projects, including personal ones, in the fields of artificial intelligence, machine learning, and Generative AI (GenAI).\n\nAs a GenAI Engineer at Sash AI, Shreesha built a real-time AI avatar system using LLMs, ElevenLabs, HeyGen, and LiveKit to enable low-latency, multi-modal conversations. They also developed an Explainable AI and NLP-Powered Resume Screening System, which uses BERT embeddings and advanced bias detection and mitigation techniques for fair and transparent decision-making.\n\nShreesha's strong foundation in machine learning and GenAI, along with their skills in Python, SQL, and LLM tools, make them a great asset for creating innovative real-world solutions.\n\nIs there anything specific you'd like to know about Shreesha's projects or their background in AI and machine learning? I'm here to help!",
+      "metadata": {
+        "avatar_id": null,
+        "voice_id": null,
+        "session_id": "62123d87-80fe-11f0-be7e-6ede6198d2fc",
+        "heygen_sent": true,
+        "heygen_sessions_sent": 1,
+        "used_knowledge_base": true,
+        "context_length": 2972,
+        "ai_service": "openai",
+        "response_time": 16150,
+        "total_sessions": 1,
+        "has_conversation_context": true,
+        "chunked_response": true
+      }
+    }
+  ],
+  "last_updated": "2025-08-24T20:56:06.495828",
+  "total_messages": 71
+}
